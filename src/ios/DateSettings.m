@@ -1,14 +1,14 @@
 //
-//  NativeSettings.m
+//  DateSettings.m
 //  NativeSettings
 //
 //  Created by selahssea on 05.12.14.
 //
 //
 
-#import "NativeSettings.h"
+#import "DateSettings.h"
 
-@implementation NativeSettings
+@implementation DateSettings
 
 - (void)open:(CDVInvokedUrlCommand*)command
 {

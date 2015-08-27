@@ -1,11 +1,11 @@
 var exec = require("cordova/exec");
 
-function NativeSettings() {
+function DateSettings() {
 }
 
-NativeSettings.prototype.open = function(onsucess, onfail) {
-	exec(onsucess, onfail, "NativeSettings", "open", []);
+DateSettings.prototype.open = function(onsucess, onfail) {
+	exec(onsucess, onfail, "DateSettings", "open", []);
 };
 
-var NativeSettings = new NativeSettings();
-module.exports = NativeSettings;
+var DateSettings = new DateSettings();
+module.exports = DateSettings;
